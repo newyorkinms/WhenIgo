@@ -34,7 +34,7 @@
                                                actions:@[]
                                                intentIdentifiers:@[]
                                                options:UNNotificationCategoryOptionCustomDismissAction];
-    
+    NSLog(@"3");
     // Register the notification categories.
     [center setNotificationCategories:[NSSet setWithObjects:generalCategory, nil]];
     
