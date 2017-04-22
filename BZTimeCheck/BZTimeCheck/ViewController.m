@@ -17,14 +17,7 @@
 
 @implementation ViewController
 JDDateCountdownFlipView *flipView;
-//static NSString * _Nonnull TEMP_START_TIME = @"TEMP_START_TIME";
-//static NSString * _Nonnull START_TIME = @"START_TIME";
-//static NSString * _Nonnull END_TIME = @"END_TIME";
-//static NSString * _Nonnull DAY_CHECK =@"DAY_CHECK";
-//
-//static NSString * _Nonnull WORK_LIST =@"WORK_LIST";
-//static NSInteger WORK_TIME = 9;
-//NSString *timeFormat = @"yyyy-MM-dd    HH:mm:ss";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"##");
