@@ -20,7 +20,7 @@ JDDateCountdownFlipView *flipView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"##");
+    NSLog(@"## bran1" );
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(updateTime:)
                                                  name:UIApplicationDidBecomeActiveNotification
