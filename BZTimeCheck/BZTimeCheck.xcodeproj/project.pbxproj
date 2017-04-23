@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE70A9E2E104B1BA53FB730 /* Pods_BZTimeCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEDA24FF6FCB0A63BC7B0D /* Pods_BZTimeCheck.framework */; };
 		463935F11EA3AA63000FC733 /* WorkListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463935F01EA3AA63000FC733 /* WorkListTableViewController.m */; };
 		463935F41EA3B2CB000FC733 /* WorkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463935F31EA3B2CB000FC733 /* WorkView.xib */; };
 		463935F71EA3B310000FC733 /* WorkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 463935F61EA3B310000FC733 /* WorkTableViewCell.m */; };
@@ -39,6 +40,54 @@
 		469101551E992E360020B144 /* BZTimeCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469101541E992E360020B144 /* BZTimeCheckTests.m */; };
 		469101601E992E360020B144 /* BZTimeCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4691015F1E992E360020B144 /* BZTimeCheckUITests.m */; };
 		46A268621EAB92B600774F75 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A268611EAB92B600774F75 /* TabViewController.m */; };
+		46FEAA4E1EAC809C00F8517A /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA241EAC809B00F8517A /* 9squares-AlBoardman.json */; };
+		46FEAA4F1EAC809C00F8517A /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA251EAC809B00F8517A /* HamburgerArrow.json */; };
+		46FEAA501EAC809C00F8517A /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA261EAC809B00F8517A /* IconTransitions.json */; };
+		46FEAA511EAC809C00F8517A /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA271EAC809B00F8517A /* LottieLogo1_masked.json */; };
+		46FEAA521EAC809C00F8517A /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA281EAC809B00F8517A /* LottieLogo1.json */; };
+		46FEAA531EAC809C00F8517A /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA291EAC809B00F8517A /* LottieLogo2.json */; };
+		46FEAA541EAC809C00F8517A /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2A1EAC809B00F8517A /* MotionCorpse-Jrcanest.json */; };
+		46FEAA551EAC809C00F8517A /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2B1EAC809B00F8517A /* PinJump.json */; };
+		46FEAA561EAC809C00F8517A /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2C1EAC809B00F8517A /* TwitterHeart.json */; };
+		46FEAA571EAC809C00F8517A /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2D1EAC809B00F8517A /* A.json */; };
+		46FEAA581EAC809C00F8517A /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2E1EAC809B00F8517A /* Apostrophe.json */; };
+		46FEAA591EAC809C00F8517A /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA2F1EAC809B00F8517A /* B.json */; };
+		46FEAA5A1EAC809C00F8517A /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA301EAC809B00F8517A /* BlinkingCursor.json */; };
+		46FEAA5B1EAC809C00F8517A /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA311EAC809B00F8517A /* C.json */; };
+		46FEAA5C1EAC809C00F8517A /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA321EAC809B00F8517A /* Colon.json */; };
+		46FEAA5D1EAC809C00F8517A /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA331EAC809B00F8517A /* Comma.json */; };
+		46FEAA5E1EAC809C00F8517A /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA341EAC809B00F8517A /* D.json */; };
+		46FEAA5F1EAC809C00F8517A /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA351EAC809B00F8517A /* E.json */; };
+		46FEAA601EAC809C00F8517A /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA361EAC809C00F8517A /* F.json */; };
+		46FEAA611EAC809C00F8517A /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA371EAC809C00F8517A /* G.json */; };
+		46FEAA621EAC809C00F8517A /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA381EAC809C00F8517A /* H.json */; };
+		46FEAA631EAC809C00F8517A /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA391EAC809C00F8517A /* I.json */; };
+		46FEAA641EAC809C00F8517A /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3A1EAC809C00F8517A /* J.json */; };
+		46FEAA651EAC809C00F8517A /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3B1EAC809C00F8517A /* K.json */; };
+		46FEAA661EAC809C00F8517A /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3C1EAC809C00F8517A /* L.json */; };
+		46FEAA671EAC809C00F8517A /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3D1EAC809C00F8517A /* M.json */; };
+		46FEAA681EAC809C00F8517A /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3E1EAC809C00F8517A /* N.json */; };
+		46FEAA691EAC809C00F8517A /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA3F1EAC809C00F8517A /* O.json */; };
+		46FEAA6A1EAC809C00F8517A /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA401EAC809C00F8517A /* P.json */; };
+		46FEAA6B1EAC809C00F8517A /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA411EAC809C00F8517A /* Q.json */; };
+		46FEAA6C1EAC809C00F8517A /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA421EAC809C00F8517A /* R.json */; };
+		46FEAA6D1EAC809C00F8517A /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA431EAC809C00F8517A /* S.json */; };
+		46FEAA6E1EAC809C00F8517A /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA441EAC809C00F8517A /* T.json */; };
+		46FEAA6F1EAC809C00F8517A /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA451EAC809C00F8517A /* U.json */; };
+		46FEAA701EAC809C00F8517A /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA461EAC809C00F8517A /* V.json */; };
+		46FEAA711EAC809C00F8517A /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA471EAC809C00F8517A /* W.json */; };
+		46FEAA721EAC809C00F8517A /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA481EAC809C00F8517A /* X.json */; };
+		46FEAA731EAC809C00F8517A /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA491EAC809C00F8517A /* Y.json */; };
+		46FEAA741EAC809C00F8517A /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA4A1EAC809C00F8517A /* Z.json */; };
+		46FEAA751EAC809C00F8517A /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA4B1EAC809C00F8517A /* vcTransition1.json */; };
+		46FEAA761EAC809C00F8517A /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA4C1EAC809C00F8517A /* vcTransition2.json */; };
+		46FEAA771EAC809C00F8517A /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA4D1EAC809C00F8517A /* Watermelon.json */; };
+		46FEAA7A1EAC832600F8517A /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FEAA791EAC832600F8517A /* LaunchViewController.m */; };
+		46FEAA7C1EAC864600F8517A /* clock.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA7B1EAC864600F8517A /* clock.json */; };
+		46FEAA7E1EAC8B7600F8517A /* play_button.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA7D1EAC8B7600F8517A /* play_button.json */; };
+		46FEAA821EAC989A00F8517A /* quick_hart_select.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FEAA811EAC989A00F8517A /* quick_hart_select.json */; };
+		BB7703122D7E53945B5B0B43 /* Pods_BZTimeCheckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E87E57205110C739BAC920 /* Pods_BZTimeCheckTests.framework */; };
+		D575BDDDFF37C04781ED0E6D /* Pods_BZTimeCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3234ADB8C70C5B5857CFDF44 /* Pods_BZTimeCheckUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +108,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24E87E57205110C739BAC920 /* Pods_BZTimeCheckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZTimeCheckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310D3C75955CE909308E8A9A /* Pods-BZTimeCheckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheckUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheckUITests/Pods-BZTimeCheckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3234ADB8C70C5B5857CFDF44 /* Pods_BZTimeCheckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZTimeCheckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		463935EF1EA3AA63000FC733 /* WorkListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkListTableViewController.h; sourceTree = "<group>"; };
 		463935F01EA3AA63000FC733 /* WorkListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkListTableViewController.m; sourceTree = "<group>"; };
 		463935F21EA3ACFA000FC733 /* CommonConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonConst.h; sourceTree = "<group>"; };
@@ -112,6 +164,59 @@
 		469101611E992E360020B144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A268601EAB92B600774F75 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		46A268611EAB92B600774F75 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		46FEAA241EAC809B00F8517A /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		46FEAA251EAC809B00F8517A /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		46FEAA261EAC809B00F8517A /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		46FEAA271EAC809B00F8517A /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		46FEAA281EAC809B00F8517A /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		46FEAA291EAC809B00F8517A /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		46FEAA2A1EAC809B00F8517A /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		46FEAA2B1EAC809B00F8517A /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		46FEAA2C1EAC809B00F8517A /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		46FEAA2D1EAC809B00F8517A /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		46FEAA2E1EAC809B00F8517A /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		46FEAA2F1EAC809B00F8517A /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		46FEAA301EAC809B00F8517A /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		46FEAA311EAC809B00F8517A /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		46FEAA321EAC809B00F8517A /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		46FEAA331EAC809B00F8517A /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		46FEAA341EAC809B00F8517A /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		46FEAA351EAC809B00F8517A /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		46FEAA361EAC809C00F8517A /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		46FEAA371EAC809C00F8517A /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		46FEAA381EAC809C00F8517A /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		46FEAA391EAC809C00F8517A /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		46FEAA3A1EAC809C00F8517A /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		46FEAA3B1EAC809C00F8517A /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		46FEAA3C1EAC809C00F8517A /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		46FEAA3D1EAC809C00F8517A /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		46FEAA3E1EAC809C00F8517A /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		46FEAA3F1EAC809C00F8517A /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		46FEAA401EAC809C00F8517A /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		46FEAA411EAC809C00F8517A /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		46FEAA421EAC809C00F8517A /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		46FEAA431EAC809C00F8517A /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		46FEAA441EAC809C00F8517A /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		46FEAA451EAC809C00F8517A /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		46FEAA461EAC809C00F8517A /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		46FEAA471EAC809C00F8517A /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		46FEAA481EAC809C00F8517A /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		46FEAA491EAC809C00F8517A /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		46FEAA4A1EAC809C00F8517A /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		46FEAA4B1EAC809C00F8517A /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		46FEAA4C1EAC809C00F8517A /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		46FEAA4D1EAC809C00F8517A /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		46FEAA781EAC832600F8517A /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		46FEAA791EAC832600F8517A /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		46FEAA7B1EAC864600F8517A /* clock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clock.json; sourceTree = "<group>"; };
+		46FEAA7D1EAC8B7600F8517A /* play_button.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = play_button.json; sourceTree = "<group>"; };
+		46FEAA811EAC989A00F8517A /* quick_hart_select.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quick_hart_select.json; sourceTree = "<group>"; };
+		691779AEC1C1DB014EF9D55C /* Pods-BZTimeCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheckTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheckTests/Pods-BZTimeCheckTests.release.xcconfig"; sourceTree = "<group>"; };
+		69EBB1E223F280AC7E965686 /* Pods-BZTimeCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheck/Pods-BZTimeCheck.release.xcconfig"; sourceTree = "<group>"; };
+		7795AE8078BF21905C055A91 /* Pods-BZTimeCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheck/Pods-BZTimeCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		88AEDA24FF6FCB0A63BC7B0D /* Pods_BZTimeCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZTimeCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B160D569DB90960C4754A9EF /* Pods-BZTimeCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheckTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheckTests/Pods-BZTimeCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC9A54E120F5C7231DA0872 /* Pods-BZTimeCheckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTimeCheckUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BZTimeCheckUITests/Pods-BZTimeCheckUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE70A9E2E104B1BA53FB730 /* Pods_BZTimeCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +241,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7703122D7E53945B5B0B43 /* Pods_BZTimeCheckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D575BDDDFF37C04781ED0E6D /* Pods_BZTimeCheckUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +300,9 @@
 			children = (
 				463A1D871E99D18D0020166A /* UserNotifications.framework */,
 				463A1D891E99D18D0020166A /* UserNotificationsUI.framework */,
+				88AEDA24FF6FCB0A63BC7B0D /* Pods_BZTimeCheck.framework */,
+				24E87E57205110C739BAC920 /* Pods_BZTimeCheckTests.framework */,
+				3234ADB8C70C5B5857CFDF44 /* Pods_BZTimeCheckUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +315,7 @@
 				4691015E1E992E360020B144 /* BZTimeCheckUITests */,
 				463A1D861E99D18D0020166A /* Frameworks */,
 				469101381E992E360020B144 /* Products */,
+				FE8657B5DF81D211317314BA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +333,7 @@
 		469101391E992E360020B144 /* BZTimeCheck */ = {
 			isa = PBXGroup;
 			children = (
+				46FEAA231EAC7FFF00F8517A /* Json */,
 				463A1D801E99CC490020166A /* BZTimeCheck.entitlements */,
 				463A1D711E99BAE10020166A /* Images */,
 				463A1D591E99BAA90020166A /* Flip */,
@@ -241,6 +354,8 @@
 				463935F61EA3B310000FC733 /* WorkTableViewCell.m */,
 				46A268601EAB92B600774F75 /* TabViewController.h */,
 				46A268611EAB92B600774F75 /* TabViewController.m */,
+				46FEAA781EAC832600F8517A /* LaunchViewController.h */,
+				46FEAA791EAC832600F8517A /* LaunchViewController.m */,
 			);
 			path = BZTimeCheck;
 			sourceTree = "<group>";
@@ -271,6 +386,71 @@
 			path = BZTimeCheckUITests;
 			sourceTree = "<group>";
 		};
+		46FEAA231EAC7FFF00F8517A /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				46FEAA811EAC989A00F8517A /* quick_hart_select.json */,
+				46FEAA7D1EAC8B7600F8517A /* play_button.json */,
+				46FEAA7B1EAC864600F8517A /* clock.json */,
+				46FEAA241EAC809B00F8517A /* 9squares-AlBoardman.json */,
+				46FEAA251EAC809B00F8517A /* HamburgerArrow.json */,
+				46FEAA261EAC809B00F8517A /* IconTransitions.json */,
+				46FEAA271EAC809B00F8517A /* LottieLogo1_masked.json */,
+				46FEAA281EAC809B00F8517A /* LottieLogo1.json */,
+				46FEAA291EAC809B00F8517A /* LottieLogo2.json */,
+				46FEAA2A1EAC809B00F8517A /* MotionCorpse-Jrcanest.json */,
+				46FEAA2B1EAC809B00F8517A /* PinJump.json */,
+				46FEAA2C1EAC809B00F8517A /* TwitterHeart.json */,
+				46FEAA2D1EAC809B00F8517A /* A.json */,
+				46FEAA2E1EAC809B00F8517A /* Apostrophe.json */,
+				46FEAA2F1EAC809B00F8517A /* B.json */,
+				46FEAA301EAC809B00F8517A /* BlinkingCursor.json */,
+				46FEAA311EAC809B00F8517A /* C.json */,
+				46FEAA321EAC809B00F8517A /* Colon.json */,
+				46FEAA331EAC809B00F8517A /* Comma.json */,
+				46FEAA341EAC809B00F8517A /* D.json */,
+				46FEAA351EAC809B00F8517A /* E.json */,
+				46FEAA361EAC809C00F8517A /* F.json */,
+				46FEAA371EAC809C00F8517A /* G.json */,
+				46FEAA381EAC809C00F8517A /* H.json */,
+				46FEAA391EAC809C00F8517A /* I.json */,
+				46FEAA3A1EAC809C00F8517A /* J.json */,
+				46FEAA3B1EAC809C00F8517A /* K.json */,
+				46FEAA3C1EAC809C00F8517A /* L.json */,
+				46FEAA3D1EAC809C00F8517A /* M.json */,
+				46FEAA3E1EAC809C00F8517A /* N.json */,
+				46FEAA3F1EAC809C00F8517A /* O.json */,
+				46FEAA401EAC809C00F8517A /* P.json */,
+				46FEAA411EAC809C00F8517A /* Q.json */,
+				46FEAA421EAC809C00F8517A /* R.json */,
+				46FEAA431EAC809C00F8517A /* S.json */,
+				46FEAA441EAC809C00F8517A /* T.json */,
+				46FEAA451EAC809C00F8517A /* U.json */,
+				46FEAA461EAC809C00F8517A /* V.json */,
+				46FEAA471EAC809C00F8517A /* W.json */,
+				46FEAA481EAC809C00F8517A /* X.json */,
+				46FEAA491EAC809C00F8517A /* Y.json */,
+				46FEAA4A1EAC809C00F8517A /* Z.json */,
+				46FEAA4B1EAC809C00F8517A /* vcTransition1.json */,
+				46FEAA4C1EAC809C00F8517A /* vcTransition2.json */,
+				46FEAA4D1EAC809C00F8517A /* Watermelon.json */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		FE8657B5DF81D211317314BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7795AE8078BF21905C055A91 /* Pods-BZTimeCheck.debug.xcconfig */,
+				69EBB1E223F280AC7E965686 /* Pods-BZTimeCheck.release.xcconfig */,
+				B160D569DB90960C4754A9EF /* Pods-BZTimeCheckTests.debug.xcconfig */,
+				691779AEC1C1DB014EF9D55C /* Pods-BZTimeCheckTests.release.xcconfig */,
+				BEC9A54E120F5C7231DA0872 /* Pods-BZTimeCheckUITests.debug.xcconfig */,
+				310D3C75955CE909308E8A9A /* Pods-BZTimeCheckUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,9 +475,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 469101641E992E360020B144 /* Build configuration list for PBXNativeTarget "BZTimeCheck" */;
 			buildPhases = (
+				FA02C9C78744A90F5B2FC5E9 /* [CP] Check Pods Manifest.lock */,
 				469101331E992E360020B144 /* Sources */,
 				469101341E992E360020B144 /* Frameworks */,
 				469101351E992E360020B144 /* Resources */,
+				D7D81EA7E9413040DA4B4DBC /* [CP] Embed Pods Frameworks */,
+				9EFBF654D285FA1D24FDA2A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,9 +495,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 469101671E992E360020B144 /* Build configuration list for PBXNativeTarget "BZTimeCheckTests" */;
 			buildPhases = (
+				0F116E4806F8F06E9862A8FB /* [CP] Check Pods Manifest.lock */,
 				4691014C1E992E360020B144 /* Sources */,
 				4691014D1E992E360020B144 /* Frameworks */,
 				4691014E1E992E360020B144 /* Resources */,
+				EFF6798E3533C50727E01F15 /* [CP] Embed Pods Frameworks */,
+				A0432BC4A0902307D50B988E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,9 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4691016A1E992E360020B144 /* Build configuration list for PBXNativeTarget "BZTimeCheckUITests" */;
 			buildPhases = (
+				7C4F049C55BE3510D95D70C5 /* [CP] Check Pods Manifest.lock */,
 				469101571E992E360020B144 /* Sources */,
 				469101581E992E360020B144 /* Frameworks */,
 				469101591E992E360020B144 /* Resources */,
+				D0734DC4B9767DCE68054C2D /* [CP] Embed Pods Frameworks */,
+				D8B823B3034F3B270974E6B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,21 +612,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46FEAA6B1EAC809C00F8517A /* Q.json in Resources */,
+				46FEAA651EAC809C00F8517A /* K.json in Resources */,
+				46FEAA561EAC809C00F8517A /* TwitterHeart.json in Resources */,
 				467CEC6D1EA794D800FB2D1A /* Todo List-30.png in Resources */,
 				463A1D6D1E99BAC70020166A /* JDFlipNumberView.bundle in Resources */,
+				46FEAA591EAC809C00F8517A /* B.json in Resources */,
 				463A1D7F1E99BB110020166A /* tweetbutton.png in Resources */,
+				46FEAA6D1EAC809C00F8517A /* S.json in Resources */,
+				46FEAA761EAC809C00F8517A /* vcTransition2.json in Resources */,
+				46FEAA6A1EAC809C00F8517A /* P.json in Resources */,
+				46FEAA671EAC809C00F8517A /* M.json in Resources */,
+				46FEAA691EAC809C00F8517A /* O.json in Resources */,
+				46FEAA6F1EAC809C00F8517A /* U.json in Resources */,
+				46FEAA521EAC809C00F8517A /* LottieLogo1.json in Resources */,
+				46FEAA5F1EAC809C00F8517A /* E.json in Resources */,
 				467CEC6B1EA7940200FB2D1A /* Present-32.png in Resources */,
+				46FEAA711EAC809C00F8517A /* W.json in Resources */,
+				46FEAA541EAC809C00F8517A /* MotionCorpse-Jrcanest.json in Resources */,
+				46FEAA661EAC809C00F8517A /* L.json in Resources */,
+				46FEAA741EAC809C00F8517A /* Z.json in Resources */,
 				4691014A1E992E360020B144 /* LaunchScreen.storyboard in Resources */,
+				46FEAA631EAC809C00F8517A /* I.json in Resources */,
+				46FEAA6E1EAC809C00F8517A /* T.json in Resources */,
+				46FEAA701EAC809C00F8517A /* V.json in Resources */,
+				46FEAA5B1EAC809C00F8517A /* C.json in Resources */,
 				467CEC691EA793C000FB2D1A /* Present-50.png in Resources */,
+				46FEAA511EAC809C00F8517A /* LottieLogo1_masked.json in Resources */,
+				46FEAA751EAC809C00F8517A /* vcTransition1.json in Resources */,
+				46FEAA771EAC809C00F8517A /* Watermelon.json in Resources */,
 				463A1D7A1E99BB110020166A /* Icon.psd in Resources */,
+				46FEAA721EAC809C00F8517A /* X.json in Resources */,
+				46FEAA7E1EAC8B7600F8517A /* play_button.json in Resources */,
+				46FEAA821EAC989A00F8517A /* quick_hart_select.json in Resources */,
+				46FEAA681EAC809C00F8517A /* N.json in Resources */,
+				46FEAA6C1EAC809C00F8517A /* R.json in Resources */,
 				463A1D7E1E99BB110020166A /* screenshots.png in Resources */,
 				463A1D7D1E99BB110020166A /* JDFlipNumberViewIOS7.psd in Resources */,
+				46FEAA501EAC809C00F8517A /* IconTransitions.json in Resources */,
 				463A1D7B1E99BB110020166A /* IconIOS7.psd in Resources */,
+				46FEAA621EAC809C00F8517A /* H.json in Resources */,
+				46FEAA641EAC809C00F8517A /* J.json in Resources */,
+				46FEAA571EAC809C00F8517A /* A.json in Resources */,
+				46FEAA5E1EAC809C00F8517A /* D.json in Resources */,
+				46FEAA531EAC809C00F8517A /* LottieLogo2.json in Resources */,
 				463935F41EA3B2CB000FC733 /* WorkView.xib in Resources */,
+				46FEAA581EAC809C00F8517A /* Apostrophe.json in Resources */,
+				46FEAA551EAC809C00F8517A /* PinJump.json in Resources */,
+				46FEAA4E1EAC809C00F8517A /* 9squares-AlBoardman.json in Resources */,
+				46FEAA611EAC809C00F8517A /* G.json in Resources */,
+				46FEAA5C1EAC809C00F8517A /* Colon.json in Resources */,
 				469101471E992E360020B144 /* Assets.xcassets in Resources */,
+				46FEAA5A1EAC809C00F8517A /* BlinkingCursor.json in Resources */,
 				463A1D791E99BB110020166A /* digits.png in Resources */,
 				463A1D7C1E99BB110020166A /* JDFlipNumberView.psd in Resources */,
+				46FEAA731EAC809C00F8517A /* Y.json in Resources */,
 				469101451E992E360020B144 /* Main.storyboard in Resources */,
+				46FEAA5D1EAC809C00F8517A /* Comma.json in Resources */,
+				46FEAA601EAC809C00F8517A /* F.json in Resources */,
+				46FEAA7C1EAC864600F8517A /* clock.json in Resources */,
+				46FEAA4F1EAC809C00F8517A /* HamburgerArrow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +691,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F116E4806F8F06E9862A8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4F049C55BE3510D95D70C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EFBF654D285FA1D24FDA2A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheck/Pods-BZTimeCheck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0432BC4A0902307D50B988E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheckTests/Pods-BZTimeCheckTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0734DC4B9767DCE68054C2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheckUITests/Pods-BZTimeCheckUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D81EA7E9413040DA4B4DBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheck/Pods-BZTimeCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B823B3034F3B270974E6B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheckUITests/Pods-BZTimeCheckUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF6798E3533C50727E01F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BZTimeCheckTests/Pods-BZTimeCheckTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA02C9C78744A90F5B2FC5E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		463A1D811E99D18D0020166A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -472,6 +844,7 @@
 				463A1D701E99BAC70020166A /* UIView+JDFlipImageView.m in Sources */,
 				463A1D6C1E99BAC70020166A /* JDFlipNumberDigitView.m in Sources */,
 				469101421E992E360020B144 /* ViewController.m in Sources */,
+				46FEAA7A1EAC832600F8517A /* LaunchViewController.m in Sources */,
 				463A1D6E1E99BAC70020166A /* JDFlipNumberView.m in Sources */,
 				463935F71EA3B310000FC733 /* WorkTableViewCell.m in Sources */,
 				463A1D6A1E99BAC70020166A /* JDFlipClockView.m in Sources */,
@@ -652,6 +1025,7 @@
 		};
 		469101651E992E360020B144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7795AE8078BF21905C055A91 /* Pods-BZTimeCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				DEVELOPMENT_TEAM = BA28D3D95Q;
@@ -665,6 +1039,7 @@
 		};
 		469101661E992E360020B144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EBB1E223F280AC7E965686 /* Pods-BZTimeCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				DEVELOPMENT_TEAM = BA28D3D95Q;
@@ -678,6 +1053,7 @@
 		};
 		469101681E992E360020B144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B160D569DB90960C4754A9EF /* Pods-BZTimeCheckTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = BA28D3D95Q;
@@ -691,6 +1067,7 @@
 		};
 		469101691E992E360020B144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691779AEC1C1DB014EF9D55C /* Pods-BZTimeCheckTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = BA28D3D95Q;
@@ -704,6 +1081,7 @@
 		};
 		4691016B1E992E360020B144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC9A54E120F5C7231DA0872 /* Pods-BZTimeCheckUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = BA28D3D95Q;
 				INFOPLIST_FILE = BZTimeCheckUITests/Info.plist;
@@ -716,6 +1094,7 @@
 		};
 		4691016C1E992E360020B144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310D3C75955CE909308E8A9A /* Pods-BZTimeCheckUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = BA28D3D95Q;
 				INFOPLIST_FILE = BZTimeCheckUITests/Info.plist;

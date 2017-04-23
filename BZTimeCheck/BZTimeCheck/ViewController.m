@@ -11,8 +11,11 @@
 #import "JDDateCountdownFlipView.h"
 #import <UserNotifications/UserNotifications.h>
 #import "CommonConst.h"
+#import <Lottie/Lottie.h>
 @interface ViewController ()
-
+@property (nonatomic, strong) NSArray *jsonFiles;
+@property (nonatomic, strong) LOTAnimationView *laAnimationStart;
+@property (nonatomic, strong) LOTAnimationView *laAnimationEnd;
 @end
 
 @implementation ViewController
@@ -20,16 +23,94 @@ JDDateCountdownFlipView *flipView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"##");
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(updateTime:)
                                                  name:UIApplicationDidBecomeActiveNotification
                                                object:nil];
-
+    UITapGestureRecognizer *singleFingerTap =[[UITapGestureRecognizer alloc] initWithTarget:self  action:@selector(startWork:)];
+    UITapGestureRecognizer *singleFingerTap2 =[[UITapGestureRecognizer alloc] initWithTarget:self  action:@selector(endWork:)];
+    
+    [self.playWork addGestureRecognizer:singleFingerTap];
+    [self.endWork addGestureRecognizer:singleFingerTap2];
+    [self lottiInit];
+    [self updateTime:nil];
     // add info labels
 
 
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+}
+- (void)startWork:(UITapGestureRecognizer *)recognizer
+{
+    [self startClick:nil];
+    //Do stuff here...
+}
+- (void)endWork:(UITapGestureRecognizer *)recognizer
+{
+    [self endClick:nil];
+    //Do stuff here...
+}
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+//    CGRect lottieRect = CGRectMake(0, 0, self.playWork.bounds.size.width, self.playWork.bounds.size.height );
+//    self.laAnimationStart.frame = lottieRect;
+    
+    
+}
+-(void)lottiInit{
+
+    self.jsonFiles = [[NSBundle mainBundle] pathsForResourcesOfType:@"json" inDirectory:nil];
+    NSString *fileURL = self.jsonFiles[10];
+    NSArray *components = [fileURL componentsSeparatedByString:@"/"];
+    [self _loadAnimationNamed];
+    //[self _loadAnimationNamed:@"play_button.json" lotObj:self.laAnimationStart loadView:self.playWork];
+    //[self _loadAnimationNamed:@"TwitterHeart.json"];
+}
+/**
+ Lottie 애니메이션 초기화
+ */
+- (void)_loadAnimationNamed{
+
+    
+    [self.laAnimationStart removeFromSuperview];
+    self.laAnimationStart = nil;
+    self.laAnimationStart = [LOTAnimationView animationNamed:@"play_button.json"];
+    CGRect lottieRect = CGRectMake(0, 0, self.playWork.bounds.size.width, self.playWork.bounds.size.height );
+    self.laAnimationStart.frame = lottieRect;
+    [self.laAnimationStart setUserInteractionEnabled:YES];
+    self.laAnimationStart.contentMode = UIViewContentModeScaleAspectFit;
+    [self.playWork addSubview:self.laAnimationStart];
+    [self.playWork  setNeedsLayout];
+    self.laAnimationStart.animationProgress = 0.5;
+    
+    
+    [self.laAnimationEnd removeFromSuperview];
+    self.laAnimationEnd = nil;
+    self.laAnimationEnd = [LOTAnimationView animationNamed:@"quick_hart_select.json"];
+    CGRect lottieRect2 = CGRectMake(0, 0, self.endWork.bounds.size.width, self.endWork.bounds.size.height );
+    self.laAnimationEnd.frame = lottieRect2;
+    [self.laAnimationEnd setUserInteractionEnabled:YES];
+    self.laAnimationEnd.contentMode = UIViewContentModeScaleAspectFit;
+    [self.endWork addSubview:self.laAnimationEnd];
+    [self.endWork  setNeedsLayout];
+    self.laAnimationEnd.animationProgress = 0.0;
+    //[self playLottie];
+  
+}
+-(void)playStartLottie{
+    self.laAnimationStart.animationProgress = 0.0;
+    [self.laAnimationStart playWithCompletion:^(BOOL animationFinished) {
+        
+    }];
+}
+-(void)playEndLottie{
+    self.laAnimationEnd.animationProgress = 0.0;
+    [self.laAnimationEnd playWithCompletion:^(BOOL animationFinished) {
+        
+    }];
 }
 /**
  앱이 켜질 때 / 시작 될 때 / 버튼 클릭 시  출근시간과 퇴근시간의 유형성 검사를 진행 후 UI 및 데이터 저장
@@ -39,6 +120,7 @@ JDDateCountdownFlipView *flipView;
      시작날짜와 현재날짜가 하루차이나면  초기화
     
     */
+    NSLog(@"up");
     NSDate *tempStartDate = [[NSUserDefaults standardUserDefaults]objectForKey:TEMP_START_TIME];
     NSDate *startDate = [[NSUserDefaults standardUserDefaults]objectForKey:START_TIME];
     Boolean duplCheck = [self getDuplicationDayCheck:tempStartDate other:startDate];
@@ -88,12 +170,14 @@ JDDateCountdownFlipView *flipView;
     
     //임시로 저장한 시작 날짜가 맞는지 체크 후 UI 반영
     [self updateTime:nil];
+    [self playStartLottie];
 }
 
 
 - (IBAction)endClick:(id)sender {
     NSDate *endDate = [NSDate date];
     [self setEndTime:endDate];
+    [self playEndLottie];
 }
 
 /**
@@ -159,6 +243,11 @@ JDDateCountdownFlipView *flipView;
     
     return myNewDate;
 }
+/**
+ #################################
+ Flip 시계 초기화
+ #################################
+ */
 -(void)setFlipRestTime:(NSDate *)startDate{
     flipView = [[JDDateCountdownFlipView alloc] initWithDayDigitCount:0 imageBundleName:@"JDFlipNumberView"];
     [self.timeView addSubview: flipView];
@@ -168,9 +257,11 @@ JDDateCountdownFlipView *flipView;
     [flipdateFormatter setDateFormat: @"dd.MM.yy HH:mm"];
     //flipView.targetDate = [flipdateFormatter dateFromString:[NSString stringWithFormat: @"01.01.%ld 00:00", (long)currentComps.year+1]];
     flipView.targetDate = [ViewController getRestTime:startDate];
+    CGRect flipFrame = CGRectMake(0, 0, self.timeView.bounds.size.width, self.timeView.bounds.size.height );
+
     //flipView.frame = CGRectInset(self.timeView.bounds, 100, 100);
     //flipView.frame = CGRectMake(10,100,100,100);
-    flipView.frame = [self.timeView frame];
+    flipView.frame = flipFrame;
     
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_BZTimeCheckUITests {
+  umbrella header "Pods-BZTimeCheckUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
