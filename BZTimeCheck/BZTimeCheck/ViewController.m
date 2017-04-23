@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSArray *jsonFiles;
 @property (nonatomic, strong) LOTAnimationView *laAnimationStart;
 @property (nonatomic, strong) LOTAnimationView *laAnimationEnd;
+@property (nonatomic, strong) LOTAnimationView *laAnimationLoading;
 @end
 
 @implementation ViewController
@@ -98,18 +99,40 @@ JDDateCountdownFlipView *flipView;
     [self.endWork  setNeedsLayout];
     self.laAnimationEnd.animationProgress = 0.0;
     //[self playLottie];
-  
+//    
+//    [self.laAnimationLoading removeFromSuperview];
+//    self.laAnimationLoading = nil;
+//    self.laAnimationLoading = [LOTAnimationView animationNamed:@"loading.json"];
+//    CGRect lottieRect3 = CGRectMake(0, 0, self.loading.bounds.size.width, self.loading.bounds.size.height );
+//    self.laAnimationLoading.frame = lottieRect3;
+//    [self.laAnimationLoading setUserInteractionEnabled:YES];
+//    self.laAnimationLoading.contentMode = UIViewContentModeScaleAspectFit;
+//    self.laAnimationLoading.loopAnimation = YES;
+//    [self.loading addSubview:self.laAnimationLoading];
+//    [self.loading  setNeedsLayout];
+//    self.laAnimationLoading.animationProgress = 0.0;
+//    [self.laAnimationLoading playWithCompletion:^(BOOL animationFinished) {
+//    }];
 }
 -(void)playStartLottie{
     self.laAnimationStart.animationProgress = 0.0;
     [self.laAnimationStart playWithCompletion:^(BOOL animationFinished) {
-        
+        [self.endWork setHidden:NO];
+        [self.btnEnd setHidden:NO];
+        [self.playWork setHidden:YES];
+        [self.btnStart setHidden:YES];
     }];
 }
 -(void)playEndLottie{
     self.laAnimationEnd.animationProgress = 0.0;
     [self.laAnimationEnd playWithCompletion:^(BOOL animationFinished) {
-        
+        /**
+         Start UI SET
+         */
+        [self.endWork setHidden:YES];
+        [self.btnEnd setHidden:YES];
+        [self.playWork setHidden:NO];
+        [self.btnStart setHidden:NO];
     }];
 }
 /**
@@ -118,7 +141,6 @@ JDDateCountdownFlipView *flipView;
 -(void)updateTime:(NSNotification *)noti{
     /**
      시작날짜와 현재날짜가 하루차이나면  초기화
-    
     */
     NSLog(@"up");
     NSDate *tempStartDate = [[NSUserDefaults standardUserDefaults]objectForKey:TEMP_START_TIME];
@@ -130,8 +152,12 @@ JDDateCountdownFlipView *flipView;
         [[NSUserDefaults standardUserDefaults] setObject:tempStartDate forKey:START_TIME];
         NSDate *myNewDate= [ViewController getRestTime:tempStartDate];
         [[NSUserDefaults standardUserDefaults] setObject:nil forKey:END_TIME];
-    }else{
-        NSLog(@"중복!!");
+        [self playStartLottie];
+    }else if(startDate == nil){
+        [self.endWork setHidden:YES];
+        [self.btnEnd setHidden:YES];
+        [self.playWork setHidden:NO];
+        [self.btnStart setHidden:NO];
     }
     
     /**
@@ -145,12 +171,24 @@ JDDateCountdownFlipView *flipView;
         NSString *str = [dateFormatter stringFromDate:setStartDate];
         [self.lblStart setText:str];
         [self setFlipRestTime:setStartDate];
-        
+        if(duplCheck){
+            [self.endWork setHidden:NO];
+            [self.btnEnd setHidden:NO];
+            [self.playWork setHidden:YES];
+            [self.btnStart setHidden:YES];
+        }
+        /**
+         End UI SET
+         */
+        NSLog(@" start ui");
+    }else{
+
     }
     
     if( end != nil ){
         NSLog(@"end start!!");
         [self setEndTime:end];
+        
     }else{
         [self.lblEnd setText:@""];
         [self.lblWork setText:@""];
@@ -170,14 +208,12 @@ JDDateCountdownFlipView *flipView;
     
     //임시로 저장한 시작 날짜가 맞는지 체크 후 UI 반영
     [self updateTime:nil];
-    [self playStartLottie];
 }
 
 
 - (IBAction)endClick:(id)sender {
     NSDate *endDate = [NSDate date];
     [self setEndTime:endDate];
-    [self playEndLottie];
 }
 
 /**
@@ -187,8 +223,12 @@ JDDateCountdownFlipView *flipView;
     NSDate *startDate = [[NSUserDefaults standardUserDefaults]objectForKey:START_TIME];
     if(startDate == nil){
         NSLog(@"startDate  is nil ");
-        
+        /**
+         Start UI SET
+         */
         return;
+    }else{
+    
     }
     
     [[NSUserDefaults standardUserDefaults] setObject:endDate forKey:END_TIME];
@@ -212,12 +252,13 @@ JDDateCountdownFlipView *flipView;
     if( flipView != nil){
         [flipView stop];
     }
-    
+
     /**
      퇴근 노티 알림 삭제
      */
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
     [center removeAllPendingNotificationRequests];
+    [self playEndLottie];
 }
 /**
  시작날짜부터 끝나는 날까지의 시간차이 계산

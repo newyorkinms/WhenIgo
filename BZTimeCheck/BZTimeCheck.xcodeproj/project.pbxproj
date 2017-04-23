@@ -28,6 +28,7 @@
 		463A1D7F1E99BB110020166A /* tweetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 463A1D781E99BB110020166A /* tweetbutton.png */; };
 		463A1D881E99D18D0020166A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463A1D871E99D18D0020166A /* UserNotifications.framework */; };
 		463A1D8A1E99D18D0020166A /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463A1D891E99D18D0020166A /* UserNotificationsUI.framework */; };
+		463C9EE21EACC61E0090BBC8 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 463C9EE11EACC61E0090BBC8 /* loading.json */; };
 		467CEC691EA793C000FB2D1A /* Present-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 467CEC681EA793C000FB2D1A /* Present-50.png */; };
 		467CEC6B1EA7940200FB2D1A /* Present-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 467CEC6A1EA7940200FB2D1A /* Present-32.png */; };
 		467CEC6D1EA794D800FB2D1A /* Todo List-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 467CEC6C1EA794D800FB2D1A /* Todo List-30.png */; };
@@ -143,6 +144,7 @@
 		463A1D851E99D18D0020166A /* NotiContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotiContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		463A1D871E99D18D0020166A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		463A1D891E99D18D0020166A /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		463C9EE11EACC61E0090BBC8 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		467CEC681EA793C000FB2D1A /* Present-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Present-50.png"; sourceTree = "<group>"; };
 		467CEC6A1EA7940200FB2D1A /* Present-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Present-32.png"; sourceTree = "<group>"; };
 		467CEC6C1EA794D800FB2D1A /* Todo List-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List-30.png"; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 		46FEAA231EAC7FFF00F8517A /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				463C9EE11EACC61E0090BBC8 /* loading.json */,
 				46FEAA811EAC989A00F8517A /* quick_hart_select.json */,
 				46FEAA7D1EAC8B7600F8517A /* play_button.json */,
 				46FEAA7B1EAC864600F8517A /* clock.json */,
@@ -637,6 +640,7 @@
 				46FEAA6E1EAC809C00F8517A /* T.json in Resources */,
 				46FEAA701EAC809C00F8517A /* V.json in Resources */,
 				46FEAA5B1EAC809C00F8517A /* C.json in Resources */,
+				463C9EE21EACC61E0090BBC8 /* loading.json in Resources */,
 				467CEC691EA793C000FB2D1A /* Present-50.png in Resources */,
 				46FEAA511EAC809C00F8517A /* LottieLogo1_masked.json in Resources */,
 				46FEAA751EAC809C00F8517A /* vcTransition1.json in Resources */,

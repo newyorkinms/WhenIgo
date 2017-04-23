@@ -14,6 +14,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblWork;
 @property (weak, nonatomic) IBOutlet UIView *playWork;
 @property (weak, nonatomic) IBOutlet UIView *endWork;
+@property (weak, nonatomic) IBOutlet UIButton *btnEnd;
+@property (weak, nonatomic) IBOutlet UIButton *btnStart;
+@property (weak, nonatomic) IBOutlet UIView *loading;
 
 @property (weak, nonatomic) IBOutlet UIView *timeView;
 +(NSDateComponents *)getCompareDate:(NSDate *)startDate endDate:(NSDate *)endDate;
